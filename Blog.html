@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title> PORTFOLIO</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<style>
+		body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+	</style>
+</head>
+<body >
+	
+	
+	
+	<header>
+		<div class="main ">
+			<div class="logo">
+				<img src="logo1.png">
+			</div>
+			<div class="row">
+			<div class="small animated slideInLeft">
+
+			<ul>
+				<li><a href="Home.html" >Home</a></li>
+				<li><a href="CV.html">CV</a></li>
+				<li class="active"><a href="Blog.html">Blog</a></li>
+				<li><a href="Research.html">Research</a></li>
+				<li><a href="Form.html">Form</a></li>
+			</ul>
+		</div>
+		<div class="big animated slideInDown">
+			
+
+			<h1 id="heading"style="color: white;
+	font-size: 70px;text-shadow: 2px 2px 4px red; text-align: center; padding-left: 20px;">BLOG</h1>
+	<div id="time"></div>
+	
+	<h2 style="color: white;font-size: 50px; padding-left: 30px;">Technology</h2>
+	<div class="time" style="color: white;font-size: 50px; float: right;">
+	<p id="demo"></p>
+</div>
+		<p style="color: white; padding-left: 35px;">Published on May9,2019  </p><br/><br/>
+	
+	<h3 style="color: white; font -size: 45px; padding-left: 35px;">What is Technology? </h3>
+	<p style="color: white; padding-left: 35px;">Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes. The term ‘Technology” is wide, and everyone has their way of understanding its meaning. We use technology to accomplish various tasks in our daily lives. We use technology to extend our abilities, making people the most crucial part of any technological system. Technology is also an application of science used to solve problems. But it is vital to know that technology and science are different subjects which work hand-in-hand to accomplish specific tasks or solve problems. We apply technology in almost everything we do in our daily lives; we use technology at work, we use technology for communication, transportation, learning, manufacturing, securing data, scaling businesses and so much more.  Technology is human knowledge which involves tools, materials, and systems. The application of technology typically results in products. If technology is well applied, it benefits humans, but the opposite is true, if used for malicious reasons.</p><br/><br/>
+
+	<h3 style="color: white; font -size: 45px; padding-left: 35px;">How technology has affected students in their daily lives. </h3>
+	<p style="color: white; padding-left: 35px;">Technology plays the role of facilitator in educating a student. One of the most important things technology has done for student learning is to increase accessibility. Technology has changed education in so many ways. Technology has made a very big change in the education world, with the invention of technology gadgets and mobile apps it is easier than ever for students to learn. First, technology has expanded the access to education and there are huge amounts of information (books, images, videos, audio) that are available through the Internet and that will enable us to empower ourself with knowledge. Before inventing this technology, students had to go to physical libraries to get the information they need. In addition, online courses are on the rise and most of them are free. Using technology to facilitate student learning has come with many positive benefits. Students can pick and choose what mediums they prefer to learn content and maximize their study time. Students have immediate access to anything they do not understand or want to learn more about. Students are no longer solely dependent on teachers, parents, or other educated people to be their only source of information. Students are in charge of their own learning and technology has leveled the playing field in many ways. </p>
+		
+		</div>
+	</div>
+</div>
+</header>
+<script>
+	function time(){
+	var date= new Date();
+	document.getElementById("demo").innerHTML= date.toLocaleTimeString().fontsize(10);
+}
+var sec= setInterval(time,1000);
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
